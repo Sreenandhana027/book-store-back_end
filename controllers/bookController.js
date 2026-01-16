@@ -1,5 +1,5 @@
 // const { response } = require("express");
-const books = require("../models/bookModel");
+const books = require("../models/bookmodel");
 const stripe = require('stripe')(process.env.paymentKey);
 // import Stripe from 'stripe';
 // const stripe = new Stripe(process.env.paymentKey);
